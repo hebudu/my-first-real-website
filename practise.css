@@ -1,0 +1,124 @@
+body{
+background: linear-gradient(135deg, #89f7fe, #66a6ff, #fbc2eb, #a18cd1); 
+font-family:'Poppins',sans-serif;
+}
+.head {
+    text-align: center;
+    font-size: 30px;
+    padding: 1px;
+    font-family: Roboto;
+    color: #e6e0ff;
+    
+}
+.bl {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    height: 220px;
+    width: 1500px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px auto;
+    animation: fadeIn 1s ease-in-out;
+}
+.block {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    height: 500px;
+    width: 1500px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px auto;
+    animation: fadeIn 1s ease-in-out;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+input{
+    font-size: 20px;
+    background: linear-gradient(135deg, white, lightblue);
+    font-family: Roboto;
+}
+select {
+    font-size: 20px;
+    background: linear-gradient(135deg, white, lightblue);
+    font-family: Roboto;
+}
+.sub{
+    font-size:25px;
+}
+.reg {
+    font-family: Roboto;
+    font-size: 25px;
+    text-align: center;
+    color: #e6e0ff;
+}
+.reg2 {
+    font-family: Roboto;
+    text-align: center;
+    color: #e6e0ff;
+    font-size: 25px;
+}
+button{
+    background-color:cornflowerblue;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 15px;
+    cursor:pointer;
+    font-size:25px;
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+button:hover{
+    background-color:royalblue;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px gray;
+}
+input {
+    border-radius: 5px;
+    font-family: Roboto;
+
+}
+option {
+    border-radius: 5px;
+    font-family: Roboto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+}
+nav{
+    text-align: center;
+    margin: 20px 0;
+  
+
+
+}
+nav a{
+    color: white;
+
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+   
+}
+    nav a:hover {
+        text-decoration: underline;
+    
+    }
