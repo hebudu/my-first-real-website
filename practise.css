@@ -1,45 +1,54 @@
- body {
-        background: linear-gradient(135deg, #89f7fe, #66a6ff, #fbc2eb, #a18cd1);
-        font-family: 'Poppins',sans-serif;
-    }
+body {
+    background:#f5a6d1;
+    background: linear-gradient(135deg, #6a11cb 0%, #86a8ff 45%, #f5a6d1 80%,#f5a6d1 100% );
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+
+}
 
     .head {
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         padding: 1px;
         font-family: Roboto;
-        color: #e6e0ff;
+        color: black;
+       
     }
+.head p {
+    color: gray;
+}
 
-    .bl {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.3);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-        padding: 20px;
-        backdrop-filter: blur(10px);
-        width: 90%;
-        height: 220px;
-        width: 1100px;
-        box-shadow: 5px 5px 5px gray;
-        margin: 30px auto;
-        animation: fadeIn 1s ease-in-out;
-    }
+.bl {
+    background: #FEFFF5;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    height: 220px;
+    width: 1100px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px auto;
+    animation: fadeIn 1s ease-in-out;
+}
 
-    .block {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.3);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-        padding: 20px;
-        backdrop-filter: blur(10px);
-        width: 90%;
-        height: 500px;
-        width: 1100px;
-        box-shadow: 5px 5px 5px gray;
-        margin: 30px auto;
-        animation: fadeIn 1s ease-in-out;
-    }
+.block {
+    background: #FEFFF5;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    width: 90%;
+    height: 500px;
+    width: 1100px;
+    box-shadow: 5px 5px 5px gray;
+    margin: 30px auto;
+    animation: fadeIn 1s ease-in-out;
+}
 
     @keyframes fadeIn {
         from {
@@ -52,47 +61,38 @@
             transform: translateY(0px);
         }
     }
-
-    input {
-        font-size: 20px;
-        background: linear-gradient(135deg, white, lightblue);
-        font-family: Roboto;
-    }
-
-    select {
-        font-size: 20px;
-        background: linear-gradient(135deg, white, lightblue);
-        font-family: Roboto;
-    }
-
     .sub {
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    .reg {
-        font-family: Roboto;
-        font-size: 25px;
-        text-align: center;
-        color: #e6e0ff;
-    }
+.reg {
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
 
-    .reg2 {
-        font-family: Roboto;
-        text-align: center;
-        color: #e6e0ff;
-        font-size: 25px;
-    }
+.reg2 {
+    font-family: Roboto;
+    text-align: initial inherit;
+    color: dimgray;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-    button {
-        background-color: cornflowerblue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 15px;
-        cursor: pointer;
-        font-size: 25px;
-        transition: background-color 0.3s, transform 0.3s;
-    }
+button {
+    margin: 10px;
+    background: linear-gradient(135deg, #6a11cb, #86a8ff);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+}
 
         button:hover {
             background-color: royalblue;
@@ -100,310 +100,144 @@
             box-shadow: 0 0 5px gray;
         }
 
-    input {
-        border-radius: 5px;
-        font-family: Roboto;
-    }
-
+input {
+    border-radius: 8px;
+    font-family: Roboto;
+    color: gray;
+    font-size: 25px;
+    width: 800px ;
+    padding: 10px;
+    border: 1px solid;
+    border-color: lightgray;
+}
+select {
+    font-size: 25px;
+    border-radius: 8px;
+    border: 1px solid;
+    font-family: Roboto;
+    width: 820px ;
+    color: gray;
+    border-color: lightgray;
+    padding: 10px;
+}
     option {
         border-radius: 5px;
         font-family: Roboto;
     }
 
-    footer {
-        text-align: center;
-        margin-top: 50px;
-        color: white;
-        font-size: 25px;
-    }
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    background-color: #2c3e50;
+}
 
-    nav {
-        text-align: center;
-        margin: 20px 0;
-    }
+nav {
+    text-align: center;
+    margin: 20px 0;
+    font-weight:bold;
+   
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-            font-size: 25px;
+ nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 25px;
         }
 
-            nav a:hover {
-                text-decoration: underline;
+ nav a:hover {
+         text-decoration: underline;
             }
 /*For smartphone screen*/
-@media screen and (max-width:600px){
-    body {
-        background: linear-gradient(135deg, #89f7fe, #66a6ff, #fbc2eb, #a18cd1);
-        font-family: 'Poppins',sans-serif;
-    }
 
-    .head {
-        text-align: center;
-        font-size: 22px;
-        padding: 1px;
-        font-family: Roboto;
-        color: #e6e0ff;
-    }
+@media screen and (max-width:600px) {
+   body{
+       font-size: 16px;
+   }
+   .head{
+       font-size: 20px;
+       padding: 10px;
+   }
+   .bl,.block{
+       width:auto;
+       height: auto;
+       padding:15px;
+       margin: 15px;
 
-    .bl {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.3);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-        padding: 10px;
-        backdrop-filter: blur(10px);
-        width: 95%;
-        height: 220px;
-        max-width: 1100px;
-        box-shadow: 5px 5px 5px gray;
-        margin: 30px auto;
-        animation: fadeIn 1s ease-in-out;
-    }
+   }
+   .sub{
+       font-size: 18px;
+       text-align:center;
+   }
+   .reg{
+       font-size: 16px;
 
-    .block {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.3);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-        padding: 20px;
-        backdrop-filter: blur(10px);
-        width: 95%;
-        height: 500px;
-        max-width: 1100px;
-        box-shadow: 5px 5px 5px gray;
-        margin: 30px auto;
-        animation: fadeIn 1s ease-in-out;
-    }
+   }
+   .reg2{
+       font-size:16px;
 
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
+   }
+   button{
+      font-size: 18px;
+      padding:8px 15px;
+      margin:8px auto;
+   }
+   input, select{
+       width: 100%;
+       font-size: 18px;
+       padding:8px;
+       box-sizing:border-box;
+   }
+   
+   nav a{
+       margin: 10px 5px;
+       font-size:18px;
+   }
+   footer{
+       font-size: 16px;
+       padding:10px ;
+   }
+
+
+   /*For tablets*/
+    @media screen (min-width:601px) and (max-width:1024px) {
+        .head {
+            font-size: 22px;
+            padding: 15px;
         }
 
-        to {
-            opacity: 1;
-            transform: translateY(0px);
-        }
-    }
-
-    input {
-        font-size: 16px;
-        background: linear-gradient(135deg, white, lightblue);
-        font-family: Roboto;
-    }
-
-    select {
-        font-size: 16px;
-        background: linear-gradient(135deg, white, lightblue);
-        font-family: Roboto;
-    }
-
-    .sub {
-        font-size: 16px;
-    }
-
-    .reg {
-        font-family: Roboto;
-        font-size: 16px;
-        text-align: center;
-        color: #e6e0ff;
-    }
-
-    .reg2 {
-        font-family: Roboto;
-        text-align: center;
-        color: #e6e0ff;
-        font-size: 16px;
-    }
-
-    button {
-        background-color: cornflowerblue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 15px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-        button:hover {
-            background-color: royalblue;
-            transform: scale(1.1);
-            box-shadow: 0 0 5px gray;
+        .bl, .block {
+            max-width:1100px;
+            width: 90%;
+            height: auto;
+            padding: 20px;
+            margin: 20px auto;
         }
 
-    input {
-        border-radius: 5px;
-        font-family: Roboto;
-    }
-
-    option {
-        border-radius: 5px;
-        font-family: Roboto;
-    }
-
-    footer {
-        text-align: center;
-        margin-top: 50px;
-        color: white;
-        font-size: 16px;
-    }
-
-    nav {
-        text-align: center;
-        margin: 20px 0;
-    }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-            font-size: 16px;
-        }
-
-            nav a:hover {
-                text-decoration: underline;
-            }
-}
-/*Tablet size*/
-
-@media screen and (max-width:992px) {
-    body {
-        background: linear-gradient(135deg, #89f7fe, #66a6ff, #fbc2eb, #a18cd1);
-        font-family: 'Poppins',sans-serif;
-    }
-
-    .head {
-        text-align: center;
-        font-size: 25px;
-        padding: 1px;
-        font-family: Roboto;
-        color: #e6e0ff;
-    }
-
-    .bl {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.3);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-        padding: 10px;
-        backdrop-filter: blur(10px);
-        width: 98%;
-        height: 220px;
-        max-width: 1100px;
-        box-shadow: 5px 5px 5px gray;
-        margin: 30px auto;
-        animation: fadeIn 1s ease-in-out;
-    }
-
-    .block {
-        background: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
-        border: 1px solid rgba(255,255,255,0.3);
-        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-        padding: 20px;
-        backdrop-filter: blur(10px);
-        width: 98%;
-        height: 500px;
-        max-width: 1100px;
-        box-shadow: 5px 5px 5px gray;
-        margin: 30px auto;
-        animation: fadeIn 1s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0px);
-        }
-    }
-
-    input {
-        font-size: 20px;
-        background: linear-gradient(135deg, white, lightblue);
-        font-family: Roboto;
-    }
-
-    select {
-        font-size: 20px;
-        background: linear-gradient(135deg, white, lightblue);
-        font-family: Roboto;
-    }
-
-    .sub {
-        font-size: 20px;
-    }
-
-    .reg {
-        font-family: Roboto;
-        font-size: 20px;
-        text-align: center;
-        color: #e6e0ff;
-    }
-
-    .reg2 {
-        font-family: Roboto;
-        text-align: center;
-        color: #e6e0ff;
-        font-size: 20px;
-    }
-
-    button {
-        background-color: cornflowerblue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 15px;
-        cursor: pointer;
-        font-size: 20px;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-        button:hover {
-            background-color: royalblue;
-            transform: scale(1.1);
-            box-shadow: 0 0 5px gray;
-        }
-
-    input {
-        border-radius: 5px;
-        font-family: Roboto;
-    }
-
-    option {
-        border-radius: 5px;
-        font-family: Roboto;
-    }
-
-    footer {
-        text-align: center;
-        margin-top: 50px;
-        color: white;
-        font-size: 20px;
-    }
-
-    nav {
-        text-align: center;
-        margin: 20px 0;
-    }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
+        input, select {
+            width: 100%;
             font-size: 20px;
+            padding: 10px;
+            box-sizing:border-box;
+            max-width:800px;
         }
 
-            nav a:hover {
-                text-decoration: underline;
-            }
+        button {
+            font-size: 20px;
+            padding: 10px 18px;
+        }
+
+        nav a {
+            font-size: 20px;
+            margin: 0 8px;
+            display: inline-block;
+        }
+
+        footer {
+            font-size: 18px;
+            padding: 15px;
+        }
+    }
 }
